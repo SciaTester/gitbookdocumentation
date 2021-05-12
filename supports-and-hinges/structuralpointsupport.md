@@ -6,7 +6,7 @@ StructuralPointSupport represents a support of the analytical model in a node. T
 
 ![](../.gitbook/assets/19_structuralpointsupport.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>

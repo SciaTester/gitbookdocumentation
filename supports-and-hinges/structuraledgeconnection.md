@@ -6,7 +6,7 @@ Object definition for a line support on a 2D member \([StructuralSurfaceMember](
 
 ![](../.gitbook/assets/21_structuraledgeconnection.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -62,7 +62,7 @@ Specification in the excel:
       <td style="text-align:center">yes</td>
       <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> or
         <a
-        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening </a>of
+        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening</a> of
           affected edge.</td>
     </tr>
     <tr>
@@ -132,6 +132,7 @@ Specification in the excel:
         <p>Rigid</p>
         <p></p>
         <p>Flexible</p>
+        <p></p>
         <p>Compression only</p>
         <p></p>
         <p>Tension only</p>

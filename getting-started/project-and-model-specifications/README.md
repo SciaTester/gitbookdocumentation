@@ -8,7 +8,7 @@ Structure of sheets "Project" and "Model" is different from all the other sheets
 
 In the list called “Project”, you can specify basic information about your project.
 
-The specification in excel:
+### The specification in excel
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |
@@ -28,7 +28,7 @@ The specification in excel:
 
 In the list called “model” you can specify basic info about your project.
 
-The specification in excel:
+### The specification in excel
 
 <table>
   <thead>
@@ -308,14 +308,12 @@ The specification in excel:
 ### **Global coordinate system:**
 {% endhint %}
 
-  
-
 ![](../../.gitbook/assets/5_model_gcs.jpg)
 
 {% hint style="info" %}
 ### **LCS of cross-section:**
 
-*  The graphical interpretation of values for row "**LCS of cross-section**" is represented below. Please keep in mind that x-axis is always in centre-line of the member. "**LCS of cross-section**" desribes how is LCS of CSS library handled and how is CSS applied on the the member.
+* The graphical interpretation of values for row "**LCS of cross-section**" is represented below. Please keep in mind that x-axis is always in centre-line of the member. "**LCS of cross-section**" desribes how is LCS of CSS library handled and how is CSS applied on the the member.
 * The first axis of the enum is the vertical one, positive direction is Zref. The second axis of the enum is the horizontal one, positive direction is Yref. Last is the axis in cente-line of the member, positive direction is Xref.
 {% endhint %}
 

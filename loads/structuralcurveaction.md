@@ -99,7 +99,6 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
       <td style="text-align:center">-180</td>
       <td style="text-align:center">
         <p>yes, if Direction = X,Y or Z</p>
-        <p></p>
         <p>yes, if Distribution = Trapez</p>
       </td>
       <td style="text-align:left">
@@ -123,7 +122,6 @@ The Line force load models load distributed over a 1D member or on a slab edge. 
       <td style="text-align:center">(20;20;0)</td>
       <td style="text-align:center">
         <p>yes, if Direction = Vector</p>
-        <p></p>
         <p>yes, if Dsitribution = Trapez</p>
       </td>
       <td style="text-align:left">

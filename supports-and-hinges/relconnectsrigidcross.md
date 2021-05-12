@@ -6,7 +6,7 @@ RigidCross is defining structural behavior of node \([StructuralPointConnection]
 
 ![](../.gitbook/assets/24_rigidcross.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -382,5 +382,5 @@ The axis of the connection is defined by the members of the RigidCross:
 **Non linear** behavior of material is handled with "Resistance". The example is shown below.
 {% endhint %}
 
-![](../.gitbook/assets/25_rigidlink_resistance.png)
+![](../.gitbook/assets/25_rigidlink_resistance%20%281%29.png)
 

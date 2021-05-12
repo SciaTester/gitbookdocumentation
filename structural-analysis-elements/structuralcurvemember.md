@@ -14,7 +14,7 @@ In addition to this local co-ordinate system, also a principal \(or main\) co-or
 
 ![](../.gitbook/assets/11_structuralcurvemember3.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>

@@ -4,7 +4,7 @@
 
 The Line moment load models load distributed over a 1D member \([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)\), 1D member Rib \([StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib)\) or on a slab edge \([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)\). It may be action along the whole 1D member or only on its part. It can be constant or trapezoidal, acting in three main directions X, Y, Z \(global or local coordinate system\).
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -41,7 +41,8 @@ Specification in the excel:
         <p></p>
         <p>On edge</p>
         <p></p>
-        <p>On subregion edge</p>
+        <p>On subregion</p>
+        <p>edge</p>
         <p></p>
         <p>On opening edge</p>
         <p></p>
@@ -100,7 +101,7 @@ Specification in the excel:
       <td style="text-align:center">String</td>
       <td style="text-align:center">B11</td>
       <td style="text-align:center">yes, if Force action = On beam</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember </a>on
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember</a> on
         which the load is applied</td>
     </tr>
     <tr>
@@ -108,7 +109,7 @@ Specification in the excel:
       <td style="text-align:center">String</td>
       <td style="text-align:center">B11</td>
       <td style="text-align:center">yes, if Force action = On rib</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib </a>on
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib</a> on
         which the load is applied</td>
     </tr>
     <tr>
@@ -118,10 +119,10 @@ Specification in the excel:
       <td style="text-align:center">yes, if Force action = On edge
         <br />or On subregion edge
         <br />or On opening edge</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember </a>or
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> or
         <a
-        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening </a>on
-          which the load is applied. <a href="structuralcurveaction.md#line-force-on-the-beam">StructuralCurveAction </a>can
+        href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a>or <a href="../structural-analysis-elements/structuralsurfacememberopening.md#opening-in-surface-member">StructuralSurfaceMemberOpening</a> on
+          which the load is applied. <a href="structuralcurveaction.md#line-force-on-the-beam">StructuralCurveAction</a> can
           act either on a 2D member edge or on internal edge.</td>
     </tr>
     <tr>

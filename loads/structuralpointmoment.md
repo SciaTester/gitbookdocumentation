@@ -6,7 +6,7 @@ A node or a beam of the structure may be subject to a moment load. The load is d
 
 ![](../.gitbook/assets/32_structuralpointmoment.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -92,6 +92,7 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Global</p>
+        <p></p>
         <p>Local</p>
       </td>
       <td style="text-align:center">yes</td>

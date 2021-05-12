@@ -10,7 +10,7 @@ The geometry of a 2D member is defined by nodes \([StructuralPointConnection](st
 
 ![](../.gitbook/assets/14_structuralsurfacemember2.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -96,7 +96,9 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Bottom</p>
+        <p></p>
         <p>Centre</p>
+        <p></p>
         <p>Top</p>
       </td>
       <td style="text-align:center">yes</td>
@@ -138,9 +140,7 @@ Specification in the excel:
         <p>Parabolic arc</p>
         <p>Bezier Spline-x</p>
         <p>Where &quot;x&quot; number of nodes defining the spline</p>
-        <p></p>
         <p>The names are separated by ; (semicolon) and space.</p>
-        <p></p>
         <p>It is possible to also define circle geometry by using &quot;Circle and
           Point&quot; or &quot;Circle by 3 points&quot;. In case of &quot;Circle
           and point&quot; two nodes have to be defined, centre of the circle and

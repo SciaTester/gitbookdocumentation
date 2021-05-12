@@ -4,7 +4,7 @@
 
 Object definition for a line support on a 1D member \([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column)\) or on a rib \([StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib)\). The support can be defined along the entire length of an edge or on its part only. This support is defined by six independent parameters. Each parameter defines the constraint in one direction: translation in X, Y, Z axis and rotation around the same axes. The parameters are the same as for line support on 2D memeber edge support \([StructuralEdgeConnection](../structural-analysis-elements/structuralcurveedge.md#internal-edge)\).
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -44,7 +44,7 @@ Specification in the excel:
       <td style="text-align:center">Member</td>
       <td style="text-align:center">String</td>
       <td style="text-align:center">B1</td>
-      <td style="text-align:center">yes</td>
+      <td style="text-align:center">yes, if on Member</td>
       <td style="text-align:left">The name of the 1D member (<a href="https://saf.guide/Content/A_Objects/7_StructuralCurveMember.htm">StructuralCurveMember</a>)
         to which is support related</td>
     </tr>

@@ -4,7 +4,7 @@
 
 A cross-section together with material \([StructuralMaterial](structuralmaterial.md#material)\) is a basic property of a 1D member. Various kinds of shapes can be defined, including steel rolled sections, timber specific cross-sections or general geometric sections. Supported shapes of cross-sections are defined in documents Formcodes and Description ID of the profile, in chapter Annexes in this document.
 
-Specification in excel:
+### Specification in excel:
 
 <table>
   <thead>
@@ -75,7 +75,6 @@ Specification in excel:
       <td style="text-align:center">T Section</td>
       <td style="text-align:center">
         <p>yes, if Cross-section type = Parametric</p>
-        <p></p>
         <p>yes, if Cross-section type = Compound</p>
       </td>
       <td style="text-align:left">
@@ -108,9 +107,7 @@ Specification in excel:
       <td style="text-align:center">HEB180</td>
       <td style="text-align:center">
         <p>yes, if Cross-section type = Manufactured</p>
-        <p></p>
         <p>yes, if Cross-section type = Compound</p>
-        <p></p>
         <p>yes, if Cross-section type = General</p>
       </td>
       <td style="text-align:left">

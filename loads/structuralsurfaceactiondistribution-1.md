@@ -6,7 +6,7 @@ StructuralSurfaceActionDistribution object describes how surface load can be dis
 
 ![](../.gitbook/assets/41_structuralsurfaceactiondistribution.gif)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -165,7 +165,6 @@ Specification in the excel:
         <p>Defines how the load will be distributed.</p>
         <p><b>One way - X</b> - Load will be distributed only to members parallel
           with X direction (X axis of LCS)</p>
-        <p></p>
         <p><b>One way - Y</b> - Load will be distributed only to members parallel
           with Y direction (Y axis of LCS</p>
         <p>)</p>

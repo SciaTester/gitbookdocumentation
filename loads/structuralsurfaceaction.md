@@ -6,7 +6,7 @@ Defines actions on surfaces – plates, walls. The surface load is defined on th
 
 ![](../.gitbook/assets/35_structuralsurfaceaction.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>

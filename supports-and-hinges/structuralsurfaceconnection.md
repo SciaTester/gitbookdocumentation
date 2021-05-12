@@ -10,7 +10,7 @@ To simplify the matter, we may imagine that C is the characteristic of elastic, 
 
 ![](../.gitbook/assets/20_structuralsurfaceconnection.png)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -35,7 +35,7 @@ Specification in the excel:
       <td style="text-align:center">String</td>
       <td style="text-align:center">S13</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember </a>to
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall">StructuralSurfaceMember</a> to
         which is the surface support is related</td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@ Specification in the excel:
       <td style="text-align:center">String</td>
       <td style="text-align:center">R1</td>
       <td style="text-align:center">no</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion </a>to
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a> to
         which is the surface support related if it is available on 2D member</td>
     </tr>
     <tr>
@@ -153,6 +153,6 @@ Specification in the excel:
 ## Notes
 
 {% hint style="info" %}
- Local coordination system is given by parent 2D object - [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)
+Local coordination system is given by parent 2D object - [StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)
 {% endhint %}
 

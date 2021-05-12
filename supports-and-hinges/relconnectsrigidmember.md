@@ -6,7 +6,7 @@ A rigid connection between two entities. Rigid Member allows to create connectio
 
 ![](../.gitbook/assets/27_structuralrigidmember.jpg)
 
-Specification in the excel:
+### Specification in the excel
 
 <table>
   <thead>
@@ -442,5 +442,5 @@ Local coordination system is given by first node and its related object.
 **Non linear** behavior of material is handled with "Resistance". The example is shown below.
 {% endhint %}
 
-![](../.gitbook/assets/25_rigidlink_resistance.png)
+![](../.gitbook/assets/25_rigidlink_resistance%20%281%29.png)
 

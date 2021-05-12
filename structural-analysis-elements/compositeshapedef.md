@@ -6,7 +6,7 @@ Composite Shape definition is **required** when the cross-section type in [Struc
 
 For **manufactured** types of a cross-section, is Composite Shape Definition is **optional**, offering the possibility to share detailed shape definition, for better classification of the profile.
 
-Specification in excel:
+### Specification in excel:
 
 <table>
   <thead>
@@ -45,13 +45,10 @@ Specification in excel:
         <p>One cross-section shape can consist of more polygons.</p>
         <p><b>Openings</b> contour are defined clockwise.</p>
         <p><b>Common polygons</b> counterclockwise.</p>
-        <p></p>
         <p>The format of the data is:</p>
         <p>y1; z1|y2; z2|y3; z3|yi; zi|yi+1; zi+1</p>
-        <p></p>
         <p>The coordinates of the vertices are divided by &quot;;&quot; and each
           vertex separated by &quot;|&quot;</p>
-        <p></p>
         <p>Keep in mind: enter dimensions in millimeters [mm] or inches [inch] (based
           on System of units set in <a href="../getting-started/project-and-model-specifications/#model">Project and model</a> specifications)</p>
       </td>
