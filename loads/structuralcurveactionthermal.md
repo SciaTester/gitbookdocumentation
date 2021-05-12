@@ -4,7 +4,7 @@
 
 The thermal load on the line elements \([StructuralCurveMember](../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column), [StructuralCurveMemberRib](../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib)\). The variation of the thermal load can be constant or linear over the cross-section of the beam.
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
@@ -112,7 +112,7 @@ The thermal load on the line elements \([StructuralCurveMember](../structural-an
       <td style="text-align:center">String</td>
       <td style="text-align:center">B11</td>
       <td style="text-align:center">yes, if Force action = On beam</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember</a> on
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralCurveMember </a>on
         which the load is applied</td>
     </tr>
     <tr>
@@ -120,7 +120,7 @@ The thermal load on the line elements \([StructuralCurveMember](../structural-an
       <td style="text-align:center">String</td>
       <td style="text-align:center">B10</td>
       <td style="text-align:center">yes, if Force action = On rib</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib</a> on
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvememberrib.md#2d-member-rib">StructuralCurveMemberRib </a>on
         which the load is applied</td>
     </tr>
     <tr>
@@ -212,4 +212,6 @@ The thermal load on the line elements \([StructuralCurveMember](../structural-an
 {% hint style="info" %}
 Reference to surfaces of cross-section where linear temperature can be applied. View is towards the direction of center axis \(looking from end point towards start point\).
 {% endhint %}
+
+
 

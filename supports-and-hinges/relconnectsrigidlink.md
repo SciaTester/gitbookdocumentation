@@ -8,7 +8,7 @@ A virtual connection of two nodes from\([StructuralPointConnection](../structura
 
 ![](../.gitbook/assets/26_rigidlink_2.png)
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
@@ -48,11 +48,8 @@ A virtual connection of two nodes from\([StructuralPointConnection](../structura
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>None</p>
-        <p></p>
         <p>Begin (master node)</p>
-        <p></p>
         <p>End (slave node)</p>
-        <p></p>
         <p>Both</p>
       </td>
       <td style="text-align:center">yes</td>
@@ -386,5 +383,5 @@ Local coordination system is given by master node and its parent object.
 **Non linear** behavior of material is handled with "Resistance". The example is shown below.
 {% endhint %}
 
-![](../.gitbook/assets/25_rigidlink_resistance%20%281%29.png)
+![](../.gitbook/assets/25_rigidlink_resistance.png)
 

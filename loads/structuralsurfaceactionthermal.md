@@ -4,7 +4,7 @@
 
 The thermal load on the surface elements \([StructuralSurfaceMember](../structural-analysis-elements/structuralsurfacemember.md#2d-member-plate-wall)\). The variation of the thermal load can be constant or linear over the cross-section of the beam.
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
@@ -71,9 +71,9 @@ The thermal load on the surface elements \([StructuralSurfaceMember](../structur
       <td style="text-align:center">String</td>
       <td style="text-align:center">S15</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralSurfaceMember</a> or
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralcurvemember.md#1d-member-beam-column">StructuralSurfaceMember </a>or
         <a
-        href="structuralsurfaceactionthermal.md">StructuralSurfaceActionDistribution</a>which is the surface load related
+        href>StructuralSurfaceActionDistribution</a>which is the surface load related
           to.</td>
     </tr>
     <tr>
@@ -81,7 +81,7 @@ The thermal load on the surface elements \([StructuralSurfaceMember](../structur
       <td style="text-align:center">String</td>
       <td style="text-align:center">R1</td>
       <td style="text-align:center">yes, if on region</td>
-      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion</a> to
+      <td style="text-align:left">The name of the <a href="../structural-analysis-elements/structuralsurfacememberregion.md#region-of-different-plate-thickness">StructuralSurfaceMemberRegion </a>to
         which is the surface action related if it is available on 2D member.</td>
     </tr>
     <tr>

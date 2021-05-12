@@ -143,6 +143,7 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Global</p>
+        <p></p>
         <p>Local</p>
       </td>
       <td style="text-align:center">yes</td>
@@ -153,6 +154,7 @@ Specification in the excel:
       <td style="text-align:center">Enum</td>
       <td style="text-align:center">
         <p>Length</p>
+        <p></p>
         <p>Projection</p>
       </td>
       <td style="text-align:center">yes</td>

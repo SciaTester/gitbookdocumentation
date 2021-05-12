@@ -16,7 +16,7 @@ It is just a geometrical reference object.
 
 Sheet StrucutralProxyElement is a list of all StructuralProxyElements defined in the SAF file. Every row represents one solid object.
 
-#### Specification in the excel
+Specification in the excel:
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |
@@ -30,7 +30,7 @@ Sheet StrucutralProxyElement is a list of all StructuralProxyElements defined in
 
 Sheet StructuralProxyElementVertices is a list of all vertices that are used for defining the StrucutralProxyElements. Each row is one vertex of StructuralProxyElements.
 
-#### Specification in the excel
+Specification in the excel:
 
 | Name of the row | Type of data | Value example or enum definition | Required value | Description |
 | :---: | :---: | :---: | :---: | :--- |
@@ -44,31 +44,31 @@ Sheet StructuralProxyElementVertices is a list of all vertices that are used for
 
 Sheet StructuralProxyElementFaces is used for defining faces of every StructuralProxyElement presented. Each row represents one face of StructuralProxyElements.
 
-#### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Name of the row</th>
-      <th style="text-align:left">Type of data</th>
-      <th style="text-align:left">Value example or enum definition</th>
-      <th style="text-align:left">Required value</th>
+      <th style="text-align:center">Name of the row</th>
+      <th style="text-align:center">Type of data</th>
+      <th style="text-align:center">Value example or enum definition</th>
+      <th style="text-align:center">Required value</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Structural proxy element</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">SPE1</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Structural proxy element</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">SPE1</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">Name reference to existing StructuralProxyElement in the sheet StructuralProxyElelement.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Index</td>
-      <td style="text-align:left">Integer</td>
-      <td style="text-align:left">0</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Index</td>
+      <td style="text-align:center">Integer</td>
+      <td style="text-align:center">0</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The index of the face of the StrucutralProxyElement. The indexing is starting
           with 0. The Index is used as an identifier of faces among all faces of
@@ -81,10 +81,10 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Definition</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">(11,8,1,2,13,12,5,6)</td>
-      <td style="text-align:left">yes</td>
+      <td style="text-align:center">Definition</td>
+      <td style="text-align:center">String</td>
+      <td style="text-align:center">(11,8,1,2,13,12,5,6)</td>
+      <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>List of ordered vertecies defining the face. Face is defined with polygons.</p>
         <p>Polygons are defined by set of vertices in brackets and vertices are divided
@@ -100,6 +100,8 @@ Sheet StructuralProxyElementFaces is used for defining faces of every Structural
   </tbody>
 </table>
 
+
+
 ## Notes
 
 {% hint style="info" %}
@@ -108,10 +110,10 @@ vertices:
 **v**0\[0,0,0\], **v**1\[2,0,0\], **v**2\[1,2,0\], **v**3\[1,1,2\]  
 faces:  
 f0\(v0,v1,v3\), **f**1\(v2,v3,v1\), **f**2\(v3,v2,v0\), f3\(v1,v0,v2\).  
-![](../.gitbook/assets/18_structuralproxyelement2.png)
+ ![](../.gitbook/assets/18_structuralproxyelement2.png) 
 
 It is recommended to define the edge common for two faces with the opposite polygons.
 
-Face **f**0 is in the picture defined as \(v0,**v**1,**v**3\) so the face **f**1 will be defined \(v2,**v**3,**v**1\). The common edge is defined as \(**v**1,**v**3\) for face **f**1 and \(**v**3,**v**1\) for face **f**2.
+Face **f**0 is in the picture defined as \(v0,**v**1,**v**3\) so the face **f**1 will be defined \(v2,**v**3,**v**1\). The common edge is defined as \(**v**1,**v**3\) for face **f**1 and \(**v**3,**v**1\) for face **f**2.  
 {% endhint %}
 

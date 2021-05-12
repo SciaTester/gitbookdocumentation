@@ -4,7 +4,7 @@
 
 Object serves for definition a load combination. The combination is created from the existing load cases in the model, in [StructuralLoadCase](structuralloadcase.md#load-case) sheet.
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
@@ -63,6 +63,7 @@ Object serves for definition a load combination. The combination is created from
         <p>EN-Seismic</p>
         <p></p>
         <p>EN-SLS</p>
+        <p></p>
         <p>Characteristic</p>
         <p></p>
         <p>EN-SLS Frequent</p>

@@ -6,7 +6,7 @@ The Free point load is related to slabs. The load is not defined by the entity i
 
 ![](../.gitbook/assets/38_structuralpointactionfree.png)
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>

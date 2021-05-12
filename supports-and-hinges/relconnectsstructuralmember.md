@@ -6,7 +6,7 @@ The entity RelConnectsStructuralMember allows users to release degrees of freedo
 
 ![](../.gitbook/assets/22_relconnectsstructuralmember.png)
 
-### Specification in the excel:
+Specification in the excel:
 
 <table>
   <thead>

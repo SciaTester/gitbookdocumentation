@@ -4,7 +4,7 @@
 
 Individual loads are not defined "freely". They must be included in load cases. A load case is a group, commonly used to group loads from the same action source. The load cases correspond with the professional terminology specified in national technical standards dealing with loads of civil engineering structures. The application of load cases follows the load management procedures that are usual and also obligatory in civil engineering practice.
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
@@ -50,7 +50,7 @@ Individual loads are not defined "freely". They must be included in load cases. 
       <td style="text-align:center">String</td>
       <td style="text-align:center">LG 1</td>
       <td style="text-align:center">yes</td>
-      <td style="text-align:left">Name reference to existing <a href="structuralloadgroup.md#load-group">StructuralLoadGroup</a> object
+      <td style="text-align:left">Name reference to existing <a href="structuralloadgroup.md#load-group">StructuralLoadGroup </a>object
         with appropriate settings of Load group type</td>
     </tr>
     <tr>
@@ -86,9 +86,9 @@ Individual loads are not defined "freely". They must be included in load cases. 
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>Define subtype of load. Depends on Action type property.</p>
-        <p></p>
         <p>Subtypes for <b>Permanent</b>:</p>
         <p>Self weight; Others ;Prestress; Standard</p>
+        <p></p>
         <p>Use value &quot;Self weight&quot; only for cases of automatically generated
           load.</p>
         <p>If your app is exporting self weight load as load objects, use type &quot;Standard&quot;

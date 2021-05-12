@@ -6,7 +6,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
 
 ![](../.gitbook/assets/12_structuralcurvemembervarying.png)
 
-### Specification in the excel
+Specification in the excel:
 
 <table>
   <thead>
@@ -33,7 +33,7 @@ StructuralCurveMemberVarying object describes changing cross section along the l
       <td style="text-align:center">yes</td>
       <td style="text-align:left">
         <p>The value refers to name of existing cross section.</p>
-        <p>Can be inputted as <b>pairs</b> or as <b>single</b>.</p>
+        <p>Can be inputted as <b>pairs </b>or as <b>single</b>.</p>
         <p>Pairs are separated by &quot;,&quot; and first one refers to Cross section
           at the start of the segment, second to an end of the segment. Pairs indicates
           linear change of cross section. <b>Therefore they need to be same type and shape</b>.</p>
@@ -52,8 +52,8 @@ StructuralCurveMemberVarying object describes changing cross section along the l
         <p>Relative length of the segment.</p>
         <p><b>Sum of all values per line has to be equal to 1,0.</b>
         </p>
-        <p><b>#</b> means indexing of the span, e.g. Span 1, Span 2, &#x2026; Span
-          99. It depends on how many spans are defined in the in the StructuralCurveMemberVarying.</p>
+        <p><b># </b>means indexing of the span, e.g. Span 1, Span 2, &#x2026; Span
+          99. It depends on how many spans are defined in the in the<b> </b>StructuralCurveMemberVarying.</p>
       </td>
     </tr>
     <tr>
@@ -82,30 +82,30 @@ StructuralCurveMemberVarying object describes changing cross section along the l
       <td style="text-align:left">
         <p>Alignment of each segment (span) can be defined here.</p>
         <p>First span:</p>
-        <p><b>Centre</b> - In plan view as well as in side view the midline of the
+        <p><b>Centre </b>- In plan view as well as in side view the midline of the
           1D member remains straight and horizontal. Both left and right surface
           are inclined to allow the cross-section change its width. The centre line
           of the 1D member (i.e. the centroid axis) of the 1D member remains straight.
           Both top and bottom surface are symmetrically inclined to allow the cross-section
           change its height.</p>
-        <p><b>Top</b> - The top surface of the 1D member remains flat and horizontal.
+        <p><b>Top </b>- The top surface of the 1D member remains flat and horizontal.
           The bottom surface is inclined in order to provide for the change of the
           height. Top surface is in direction of vertical axis of CSS. Bottom - The
           bottom surface of the 1D member remains flat and horizontal. The top surface
           is inclined in order to provide for the change of the height. Bottom surface
           is in opposite direction of vertical axis of CSS.</p>
-        <p><b>Left</b> - The left surface of the 1D member remains flat and horizontal.
+        <p><b>Left </b>- The left surface of the 1D member remains flat and horizontal.
           The right surface is inclined in order to provide for the change of the
           width. Left surface is in direction of horizontal axis of CSS.</p>
-        <p><b>Right</b> - The right surface of the 1D member remains flat and horizontal.
+        <p><b>Right </b>- The right surface of the 1D member remains flat and horizontal.
           The left surface is inclined in order to provide for the change of the
           width. Right surface is in opposite direction of horizontal axis of CSS.</p>
         <p><b>Other than first span:</b>
         </p>
         <p>Same rules applies with respect to previous span. See pictures in notes
           section.</p>
-        <p><b>#</b> means indexing of the Alignment, e.g. Alignment 1, Alignment 2,
-          &#x2026; Alignment 99. It depends on how many spans are defined in the
+        <p><b># </b>means indexing of the Alignment, e.g. Alignment 1, Alignment
+          2, &#x2026; Alignment 99. It depends on how many spans are defined in the
           arbitrary definition.</p>
       </td>
     </tr>
